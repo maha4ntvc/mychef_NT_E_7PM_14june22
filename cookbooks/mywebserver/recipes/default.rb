@@ -8,3 +8,6 @@ include_recipe 'mywebserver::mywebserver'
 #include_recipe 'mywebserver::mysql'
 include_recipe 'mywebserver::mypack'
 include_recipe 'chef-client::default'
+include_recipe 'mywebserver::installjava'
+
+# curl -L https://chef.io/chef/install.sh | sudo bash
